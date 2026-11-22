@@ -18,19 +18,24 @@ curl -fsSL https://bun.sh/install | bash
 ```bash
 powershell -c "irm bun.sh/install.ps1|iex"
 ```
-## Cek ketersediaan bun
+### Cek ketersediaan bun
 ```bash
 bun -v
 ```
-## Install dependency
+### Clone Repository
+```bash
+git clone https://github.com/vennius/fizz-buzz.git
+cd fizz-buzz
+```
+### Install dependency
 ```bash
 bun i
 ```
-## Running
+### Running
 ```bash
 bun index.ts
 ```
-## Output yang diharapkan
+### Output yang diharapkan
 ```text
 1
 2
